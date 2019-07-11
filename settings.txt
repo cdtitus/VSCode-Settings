@@ -1,0 +1,185 @@
+{
+    "git.decorations.enabled": false,
+
+    "workbench.colorTheme": "Visual Studio Dark",
+
+    "editor.fontSize": 18,
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#399A5F",
+
+        "strings": "#EF8C8C",
+
+        "textMateRules": [
+            // ----------
+            // TYPESCRIPT
+            // ----------
+            //TYPES
+            {
+                "name": "General types",
+                "scope": "entity.name.type.ts",
+                "settings": {
+                    "foreground": "#C09CD9"
+                }
+            },
+            {
+                "name": "Variable property types",
+                "scope": "meta.type.annotation.ts",
+                "settings": {
+                    "foreground": "#C09CD9"
+                }
+            },
+            {
+                "name": "Import types",
+                "scope": "variable.other.readwrite.alias.ts",
+                "settings": {
+                    "foreground": "#C09CD9"
+                }
+            },
+            // VARIABLES
+            {
+                "name": "Variable",
+                "scope": "variable.other.object.ts",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Variable as parameter",
+                "scope": "variable.parameter.ts",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Variable as parameter 2",
+                "scope": "support.variable.dom.ts",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Variable as parameter 3",
+                "scope": "variable.other.readwrite.ts",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            // OPERATORS
+            {
+                "name": "Operators",
+                "scope": "keyword.operator.logical.ts",
+                "settings": {
+                    "foreground": "#F5CB54"
+                }
+            },
+            {
+                "name": "Operators",
+                "scope": "keyword.operator.relational.ts",
+                "settings": {
+                    "foreground": "#F5CB54"
+                }
+            },
+            // FUNCTIONS
+            {
+                "name": "Function",
+                "scope": "entity.name.function.ts",
+                "settings": {
+                    "foreground": "#84C4D7"
+                }
+            },
+            {
+                "name": "Function from variable",
+                "scope": "support.function.ts",
+                "settings": {
+                    "foreground": "#84C4D7"
+                }
+            },
+            {
+                "name": "Function from variable",
+                "scope": "support.function.dom.ts",
+                "settings": {
+                    "foreground": "#84C4D7"
+                }
+            },
+            // FUNCTION TYPES
+            {
+                "name": "Function return type",
+                "scope": "meta.return.type.ts",
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            // KEYWORDS
+            {
+                "name": "Let/Var/Const",
+                "scope": "storage.type.ts",
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            {
+                "name": "This",
+                "scope": "variable.language.this.ts",
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            {
+                "name": "Import",
+                "scope": "keyword.control.import.ts",
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            {
+                "name": "From",
+                "scope": "keyword.control.from.ts",
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            // ----------
+            // HTML
+            // ----------
+            {
+                "name": "Strings",
+                "scope": "string.quoted.double.html",
+                "settings": {
+                    "foreground": "#DDE39B"
+                }
+            },
+            // ----------
+            // C-SHARP
+            // ----------
+            // TYPES
+            {
+                "name": "Namespace",
+                "scope": "entity.name.type.namespace.cs",
+                "settings": {
+                    "foreground": "#dadada"
+                }
+            },
+            {
+                "name": "Annotations / Class derived from, etc",
+                "scope": "storage.type.cs",
+                "settings": {
+                    "foreground": "#4ec9b0"
+                }
+            },
+
+            // CLASSES
+            {
+                "name": "Annotations / Class derived from, etc",
+                "scope": "entity.name.type.class.cs",
+                "settings": {
+                    "foreground": "#4ec9b0"
+                }
+            }
+        ]
+    },
+    
+    "files.autoSave": "off",
+    
+    "team.showWelcomeMessage": false
+}

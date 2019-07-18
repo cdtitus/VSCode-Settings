@@ -4,6 +4,12 @@
     "workbench.colorTheme": "Visual Studio Dark",
 
     "editor.fontSize": 18,
+    
+    "editor.rulers": [80,100],
+
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#5a1e1e"
+    },
 
     "editor.tokenColorCustomizations": {
         "comments": "#399A5F",
